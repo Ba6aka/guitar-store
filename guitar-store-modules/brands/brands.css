@@ -1,0 +1,21 @@
+@import url('../../nullstyle.css');
+
+.brands h2 {
+  /* font-family: Cal Sans; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.accent {
+  color: #ff6428;
+}
+
+.brands-row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 160px;
+  margin-top: 96px;
+}

@@ -1,0 +1,43 @@
+@import url('./categiries.css');
+
+.categories h2 {
+  /* font-family: Cal Sans; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+  color: black;
+  margin-bottom: 80px;
+}
+
+.accent {
+  color: #ff6428;
+}
+
+.categories-row {
+  justify-content: center;
+  outline: none;
+  list-style: none;
+  display: flex;
+  gap: 69px;
+}
+
+.cat-item {
+  position: relative;
+}
+
+.cat-item image {
+  border-radius: 20px;
+}
+
+.cat-name {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+  /* font-family: Poppins; */
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}

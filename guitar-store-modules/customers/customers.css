@@ -1,0 +1,68 @@
+@import url('../../nullstyle.css');
+
+.customers h2 {
+  /* font-family: Cal Sans; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.accent {
+  color: rgba(255, 100, 40, 1);
+}
+
+.profile {
+  margin-top: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-customer {
+  width: 524px;
+}
+
+.about-customer p {
+  /* font-family: Poppins; */
+  font-size: 24px;
+  line-height: 38px;
+  color: #666666;
+}
+
+.about-customer h4 {
+  margin-top: 54px;
+  /* font-family: Poppins; */
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.rank {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.rank p {
+  color: #868686;
+}
+
+.rank ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.gray-elipce {
+  height: 24px;
+  width: 12px;
+  background: #c4c4c4;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.gray-elipce:hover{
+  transform: rotate(90deg);
+  background: #ff6428;;
+}

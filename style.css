@@ -1,0 +1,15 @@
+@import url('./guitar-store-modules/hero/hero.css');
+@import url('./guitar-store-modules/store/store.css');
+@import url('./guitar-store-modules/categories/categories.css');
+@import url('./guitar-store-modules/brands/brands.css');
+@import url('./guitar-store-modules/about/about.css');
+@import url('./guitar-store-modules/customers/customers.css');
+@import url('./guitar-store-modules/app-marketing/marketing.css');
+@import url('./guitar-store-modules/footer/footer.css');
+
+
+
+section{
+  padding: 0px 15px;
+  margin-bottom: 180px;
+}

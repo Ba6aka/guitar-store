@@ -1,0 +1,52 @@
+@import url('../../nullstyle.css');
+
+.marketing h2 {
+  /* font-family: Cal Sans; */
+  text-align: left;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.accent {
+  color: #ff6428
+}
+
+.marketing {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.browse {
+  width: 484px;
+}
+
+.links {
+  margin-top: 60px;
+}
+
+.screen-bar {
+  display: flex;
+  width: 568px;
+  height: 554px;
+  gap: 33px;
+  align-items: center;
+  justify-content: center;
+  background: url('./img/ellipse.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.screen-bar img {
+  height: 461px;
+  border-radius: 25px;
+}
+
+.screen-bar img:first-child {
+  transform: translateY(-40px);
+}
+
+.screen-bar img:last-child {
+  transform: translateY(40px);
+}

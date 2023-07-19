@@ -1,0 +1,53 @@
+@import url('../../nullstyle.css');
+
+.store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store h2 {
+  /* font-family: Cal Sans; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.accent {
+  color: #ff6428;
+}
+
+.showcase {
+  margin-top: 86px;
+}
+
+.showcase-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-header h2 {
+  /* font-family: Poppins; */
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.showcase-header a {
+  /* font-family: Poppins; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.showcase-row {
+  margin-top: 32px;
+  display: flex;
+  gap: 54px;
+}
+
+.price {
+  margin-top: 7px;
+}

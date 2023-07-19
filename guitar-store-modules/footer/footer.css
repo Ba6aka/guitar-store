@@ -1,0 +1,84 @@
+@import url('../../nullstyle.css');
+
+footer {
+  background: #eeeeee;
+  padding: 80px 0px 43px 0px;
+
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.contact {
+  margin-right: 273px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rhytm-logo img {
+  margin-right: 24px;
+}
+
+.rhytm {
+  /* font-family: Cal Sans; */
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.mail,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #12121299;
+}
+
+.product h2,
+.pages h2,
+.follow h2 {
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.product ul,
+.pages ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #12121299;
+}
+
+.pages {
+  margin-right: 156px;
+}
+
+.product {
+  margin-right: 161px;
+}
+
+.follow ul {
+  display: flex;
+  gap: 43px
+}
+
+.copyright p {
+  text-align: center;
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #12121299;
+}

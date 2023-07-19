@@ -1,0 +1,55 @@
+@import url('../../nullstyle.css');
+
+.about {
+  padding: 93px 0px 93px 0px;
+  background-color: #000;
+}
+
+.about h2 {
+  /* font-family: Cal Sans; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+  color: #fff;
+}
+
+.accent {
+  color: #ff6428;
+}
+
+.about-row {
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+  gap: 277px;
+}
+
+.about-item {
+  text-align: center;
+}
+
+.about-item img {
+  padding: 20px;
+  border-radius: 20px;
+  background: #262626;
+}
+
+.about-item h4 {
+  /* font-family: Poppins; */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 60px 0 12px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.desctiption {
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #666666;
+  max-width: 230px;
+}
